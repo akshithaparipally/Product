@@ -5,5 +5,8 @@
     "start": "cmd /c \"cd productdetail && set PORT=3002 && npm start\"",
     "test": "npm --prefix productdetail run test -- --watch=false",
     "build": "npm --prefix productdetail run build"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
